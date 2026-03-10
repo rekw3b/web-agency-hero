@@ -1,0 +1,55 @@
+
+/*.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 200;
+  font-variation-settings: "wdth" 100;
+}*/
+
+body {
+    font-family: "Open Sans";
+    color: #020202;
+    padding-left: 60px;
+    padding-top: 30px;
+    background-image: url("img/faded-office.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.main {
+    width: 300px;
+}
+
+.site-title {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.tagline {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #0ea5e9;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 8px;
+}
+
+.btn-cta {
+    background-color: #0ea5e9;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+}
+
+.btn-cta:hover {
+    background-color: darkblue;
+    box-shadow: 4px 4px 4px orange;
+}
+
